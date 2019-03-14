@@ -1,9 +1,7 @@
 param(
-    [Parameter(Mandatory = $true)]
-    [string]$PackageName
+    [Parameter(Mandatory = $false)]
+    [string]$PackageName = 'webswing'
 )
-
-#$PackageName = 'webswing'
 
 if (!(choco --version))
 {
