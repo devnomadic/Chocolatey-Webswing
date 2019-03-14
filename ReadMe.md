@@ -1,4 +1,6 @@
-﻿## Summary
+[![Build status](https://ci.appveyor.com/api/projects/status/crne9xn5e3r6v0ok?svg=true)](https://ci.appveyor.com/project/devnomadic/chocolatey-webswing)
+
+## Summary
 How do I create packages? See https://chocolatey.org/docs/create-packages
 
 If you are submitting packages to the community feed (https://chocolatey.org)
