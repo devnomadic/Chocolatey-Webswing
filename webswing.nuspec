@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>webswing</id>
+    <version>2.5.10</version>
+    <packageSourceUrl>https://bitbucket.org/meszarv/webswing/downloads/webswing-2.5.10.zip</packageSourceUrl>
+    <owners>Victor Meszaros - Nimirium Ltd</owners>
+    <title>Webswing (Install)</title>
+    <authors>devnoadic</authors>
+    <projectUrl>https://bitbucket.org/meszarv/webswing/overview</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/devnomadic/Chocolatey/master/Webswing/WebswingLogo.png</iconUrl>
+    <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.en.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://bitbucket.org/meszarv/webswing/src</projectSourceUrl>
+    <docsUrl>http://webswing.org/docs/version-2.5/</docsUrl>
+    <tags>webswing java swing webapp</tags>
+    <summary>Webswing is a web server that allows you to run any Java swing application inside your web browser using only pure HTML5.</summary>
+    <description>For many years Swing has been the framework of choice for many companies and individuals for creating rich applications. They all invested a lot of money and effort into developing these applications. But nowadays, the Swing framework is becoming the limiting factor for them, because they are not able to use these applications in modern web browsers. And with the Applet technology support being discontinued, it leaves these companies with very few options.
+
+This is where Webswing comes to the rescue. With virtually no extra work, the Swing application or Applet can instantly be used in a browser just like the native application. All it takes is a simple configuration using the built-in admin web interface.
+
+### Webswing offers a unique and instant solution for:
+
+* Swing Applications
+* Java Applets
+* Netbeans Platform Applications
+* JavaFx Applications (beta)
+
+### All this with:
+
+* No browser plugin required - only HTML5
+* No code modification or conversion
+* Works with every framework
+
+### And as a bonus you get:
+
+* monitoring
+* live control of user sessions
+* recording and playback of sessions
+* memory, CPU usage statistics
+* logs viewer
+* advanced access control
+    </description>
+    <!--
+    <dependencies>
+      <dependency id="javaruntime" version="8.0" />
+    </dependencies>
+    -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
