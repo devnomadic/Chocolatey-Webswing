@@ -4,11 +4,11 @@
     <id>webswing</id>
     <version>2.5.10</version>
     <packageSourceUrl>https://bitbucket.org/meszarv/webswing/downloads/webswing-2.5.10.zip</packageSourceUrl>
-    <owners>Victor Meszaros - Nimirium Ltd</owners>
+    <owners>devnoadic</owners>
     <title>Webswing (Install)</title>
-    <authors>devnoadic</authors>
+    <authors>Victor Meszaros - Nimirium Ltd</authors>
     <projectUrl>https://bitbucket.org/meszarv/webswing/overview</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/devnomadic/Chocolatey/master/Webswing/WebswingLogo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/devnomadic/Chocolatey-Webswing/master/WebswingLogo.png</iconUrl>
     <licenseUrl>https://www.gnu.org/licenses/agpl-3.0.en.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://bitbucket.org/meszarv/webswing/src</projectSourceUrl>
