@@ -2,6 +2,10 @@
 #      environment configuration  # 
 #---------------------------------# 
 version: 2.0.{build}.0
+skip_commits:
+  files:
+        - ReadMe.md
+
 install: 
 #   - git clone https://github.com/PowerShell/DscResource.Tests
     - ps: |
