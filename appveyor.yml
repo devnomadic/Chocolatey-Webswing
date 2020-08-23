@@ -10,7 +10,7 @@ install:
 #   - git clone https://github.com/PowerShell/DscResource.Tests
     - ps: |
         Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force
-        Install-Module -Name Pester -MaximumVersion 4.10.1 -Repository PSGallery -Force
+        Install-Module -Name Pester -Repository PSGallery -Force
 
 #---------------------------------# 
 #      build configuration        # 
