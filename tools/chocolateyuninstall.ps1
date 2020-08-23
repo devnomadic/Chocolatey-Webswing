@@ -3,7 +3,7 @@
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   softwareName  = 'ChocoWebswing*'  #part or all of the Display Name as you see it in Programs and Features. It should be enough to be unique
-  ZipFileName   = 'webswing-2.5.10.zip'
+  ZipFileName   = 'webswing-2.5.12.zip'
 }
 
 $uninstalled = $false
