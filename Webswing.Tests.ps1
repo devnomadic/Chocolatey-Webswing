@@ -21,6 +21,7 @@ Describe 'Chocolatey Packages Install' {
     It "Install: $PackageName" {
         $PkgInstall = $null
         $PkgInstall = choco install $Nupkg.FullName -y
+        Write-Host $PkgInstall
         $PkgInstall | ?{$_ -match "The install of $PackageName was successful"} | Should -Not -Be $null
     }
 }
