@@ -1,3 +1,4 @@
+### Appveyor Build
 [![Build status](https://ci.appveyor.com/api/projects/status/crne9xn5e3r6v0ok?svg=true)](https://ci.appveyor.com/project/devnomadic/chocolatey-webswing)
 
 [Chocolatey Package](https://chocolatey.org/packages/webswing)
