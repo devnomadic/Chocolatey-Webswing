@@ -3,11 +3,15 @@ param(
     [string]$PackageName = 'webswing'
 )
 
+<#
 if (!(choco --version))
 {
     Write-Host "Choco not installed - Installing..."
     iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 }
+#>
+
+iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 $WorkingFiles = gci -Recurse
 $Nupkg = $WorkingFiles | ? {($_.Extension -eq '.nupkg') -and ($_.Name -match "$PackageName")}
@@ -25,7 +29,7 @@ Describe 'Chocolatey Package is listed' {
     It "Listed" {
         $PkgList = $null
         $PkgList = choco list --local-only
-        $PkgList | ?{$_ -match $PackageName} | Should -Not -Be $nul
+        $PkgList | ?{$_ -match $PackageName} | Should -Not -Be $null
     }
 }
 
