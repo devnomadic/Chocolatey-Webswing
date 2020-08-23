@@ -16,6 +16,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 $WorkingFiles = gci -Recurse
 $Nupkg = $WorkingFiles | ? {($_.Extension -eq '.nupkg') -and ($_.Name -match "$PackageName")}
 Write-Host $WorkingFiles
+Write-Host $Nupkg.FullName
 
 Describe 'Chocolatey Packages Install' {
     It "Install: $PackageName" {
